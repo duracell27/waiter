@@ -18,6 +18,11 @@ const waiterSchema = new Schema({
         required: true,
         minlength: 3
     },
+    city: {
+        type: String,
+        required: true,
+        minlength: 3
+    },
     imgUrl: {
         type: String,
     }
