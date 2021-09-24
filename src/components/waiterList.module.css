@@ -1,0 +1,41 @@
+.waiters{
+    width: 100%;
+    display: flex;
+}
+.waiterCard{
+    width: 300px;
+    box-shadow: 5px 4px 17px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+/* .waiterCard + .waiterCard{
+    margin-left: 20px;
+    margin-bottom: 20px;
+} */
+
+.waiterCard__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.waiterCard__info{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.waiterCard__name, .waiterCard__city, .waiterCard__restorant{
+    padding: 5px;
+}
+
+button{
+    background-color: rgb(109, 224, 55);
+    padding: 5px 10px;
+    color: rgb(98, 52, 224);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
